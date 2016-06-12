@@ -1,0 +1,6 @@
+framework module Pods_hackathon_mastercard_app {
+  umbrella header "Pods-hackathon-mastercard-app-umbrella.h"
+
+  export *
+  module * { export * }
+}
