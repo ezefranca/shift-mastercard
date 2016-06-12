@@ -1,0 +1,2 @@
+[Sun Jun 12 2016 04:05:15 GMT-0300 (BRT)] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Sun Jun 12 2016 04:05:15 GMT-0300 (BRT)] layer "+  buton": Expected Either a default asset specification or a layer asset specification but "+" found.

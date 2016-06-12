@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0F16591D0D1925006F998E /* Simplify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F16571D0D1925006F998E /* Simplify.bundle */; };
+		8B0F165A1D0D1925006F998E /* Simplify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0F16581D0D1925006F998E /* Simplify.framework */; };
+		8B0F165C1D0D46F0006F998E /* initialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F165B1D0D46F0006F998E /* initialViewController.swift */; };
 		8B2AA4531D0CBF730011AA83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AA4521D0CBF730011AA83 /* AppDelegate.swift */; };
 		8B2AA4551D0CBF730011AA83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AA4541D0CBF730011AA83 /* ViewController.swift */; };
 		8B2AA4581D0CBF730011AA83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2AA4561D0CBF730011AA83 /* Main.storyboard */; };
 		8B2AA45A1D0CBF730011AA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2AA4591D0CBF730011AA83 /* Assets.xcassets */; };
 		8B2AA45D1D0CBF730011AA83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2AA45B1D0CBF730011AA83 /* LaunchScreen.storyboard */; };
+		8B2AA4681D0CBF9F0011AA83 /* Bluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AA4671D0CBF9F0011AA83 /* Bluetooth.m */; };
+		8B2AA46D1D0CBFE60011AA83 /* IOTArduino.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AA46A1D0CBFE60011AA83 /* IOTArduino.m */; };
+		8B2AA46E1D0CBFE60011AA83 /* SerialGATT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AA46C1D0CBFE60011AA83 /* SerialGATT.m */; };
+		8B2AA4701D0CCAC40011AA83 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AA46F1D0CCAC40011AA83 /* PaymentViewController.swift */; };
+		8B2AA4721D0CE3670011AA83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AA4711D0CE3670011AA83 /* LoginViewController.swift */; };
+		8B2AA4741D0CF0B40011AA83 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AA4731D0CF0B40011AA83 /* ProfileViewController.swift */; };
+		8B2AA47A1D0D0A930011AA83 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AA4791D0D0A930011AA83 /* CreditCardViewController.swift */; };
+		8B93FA501D0D4C8A008BB3FA /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B93FA4F1D0D4C8A008BB3FA /* CustomPageViewController.swift */; };
+		8B93FA5B1D0D5DD5008BB3FA /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA511D0D5DD5008BB3FA /* Montserrat-Black.otf */; };
+		8B93FA5C1D0D5DD5008BB3FA /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA521D0D5DD5008BB3FA /* Montserrat-Black.ttf */; };
+		8B93FA5D1D0D5DD5008BB3FA /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA531D0D5DD5008BB3FA /* Montserrat-Bold.otf */; };
+		8B93FA5E1D0D5DD5008BB3FA /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA541D0D5DD5008BB3FA /* Montserrat-Bold.ttf */; };
+		8B93FA5F1D0D5DD5008BB3FA /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA551D0D5DD5008BB3FA /* Montserrat-Hairline.otf */; };
+		8B93FA601D0D5DD5008BB3FA /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA561D0D5DD5008BB3FA /* Montserrat-Light.otf */; };
+		8B93FA611D0D5DD5008BB3FA /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA571D0D5DD5008BB3FA /* Montserrat-Light.ttf */; };
+		8B93FA621D0D5DD5008BB3FA /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA581D0D5DD5008BB3FA /* Montserrat-Regular.otf */; };
+		8B93FA631D0D5DD5008BB3FA /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA591D0D5DD5008BB3FA /* Montserrat-Regular.ttf */; };
+		8B93FA641D0D5DD5008BB3FA /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B93FA5A1D0D5DD5008BB3FA /* Montserrat-Thin.ttf */; };
+		8B93FA681D0D6A7E008BB3FA /* MasterPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B93FA671D0D6A7E008BB3FA /* MasterPassViewController.swift */; };
+		AA1A96D1196E1D26BA39374E /* Pods_hackathon_mastercard_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9E5EDCA5A2AEFAE913571D /* Pods_hackathon_mastercard_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2039FD0F6E7E340724CED86A /* Pods-hackathon-mastercard-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathon-mastercard-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackathon-mastercard-app/Pods-hackathon-mastercard-app.debug.xcconfig"; sourceTree = "<group>"; };
+		4D9E5EDCA5A2AEFAE913571D /* Pods_hackathon_mastercard_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackathon_mastercard_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0F16571D0D1925006F998E /* Simplify.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Simplify.bundle; sourceTree = "<group>"; };
+		8B0F16581D0D1925006F998E /* Simplify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Simplify.framework; sourceTree = "<group>"; };
+		8B0F165B1D0D46F0006F998E /* initialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initialViewController.swift; sourceTree = "<group>"; };
 		8B2AA44F1D0CBF730011AA83 /* hackathon-mastercard-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hackathon-mastercard-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2AA4521D0CBF730011AA83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B2AA4541D0CBF730011AA83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +50,30 @@
 		8B2AA4591D0CBF730011AA83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2AA45C1D0CBF730011AA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B2AA45E1D0CBF730011AA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2AA4651D0CBF9F0011AA83 /* hackathon-mastercard-app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hackathon-mastercard-app-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B2AA4661D0CBF9F0011AA83 /* Bluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bluetooth.h; path = Bluetooth/Bluetooth.h; sourceTree = "<group>"; };
+		8B2AA4671D0CBF9F0011AA83 /* Bluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bluetooth.m; path = Bluetooth/Bluetooth.m; sourceTree = "<group>"; };
+		8B2AA4691D0CBFE60011AA83 /* IOTArduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOTArduino.h; sourceTree = "<group>"; };
+		8B2AA46A1D0CBFE60011AA83 /* IOTArduino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOTArduino.m; sourceTree = "<group>"; };
+		8B2AA46B1D0CBFE60011AA83 /* SerialGATT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialGATT.h; sourceTree = "<group>"; };
+		8B2AA46C1D0CBFE60011AA83 /* SerialGATT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialGATT.m; sourceTree = "<group>"; };
+		8B2AA46F1D0CCAC40011AA83 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		8B2AA4711D0CE3670011AA83 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B2AA4731D0CF0B40011AA83 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8B2AA4791D0D0A930011AA83 /* CreditCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
+		8B93FA4F1D0D4C8A008BB3FA /* CustomPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
+		8B93FA511D0D5DD5008BB3FA /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		8B93FA521D0D5DD5008BB3FA /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		8B93FA531D0D5DD5008BB3FA /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		8B93FA541D0D5DD5008BB3FA /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		8B93FA551D0D5DD5008BB3FA /* Montserrat-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Hairline.otf"; sourceTree = "<group>"; };
+		8B93FA561D0D5DD5008BB3FA /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		8B93FA571D0D5DD5008BB3FA /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		8B93FA581D0D5DD5008BB3FA /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		8B93FA591D0D5DD5008BB3FA /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		8B93FA5A1D0D5DD5008BB3FA /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		8B93FA671D0D6A7E008BB3FA /* MasterPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterPassViewController.swift; sourceTree = "<group>"; };
+		BB20602CF76B3E7CCFA43978 /* Pods-hackathon-mastercard-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathon-mastercard-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathon-mastercard-app/Pods-hackathon-mastercard-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1A96D1196E1D26BA39374E /* Pods_hackathon_mastercard_app.framework in Frameworks */,
+				8B0F165A1D0D1925006F998E /* Simplify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C8FE6CBF6FB5556160B4870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2039FD0F6E7E340724CED86A /* Pods-hackathon-mastercard-app.debug.xcconfig */,
+				BB20602CF76B3E7CCFA43978 /* Pods-hackathon-mastercard-app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		721C0BB6238CFD630CA08A29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9E5EDCA5A2AEFAE913571D /* Pods_hackathon_mastercard_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B2AA4461D0CBF730011AA83 = {
 			isa = PBXGroup;
 			children = (
 				8B2AA4511D0CBF730011AA83 /* hackathon-mastercard-app */,
 				8B2AA4501D0CBF730011AA83 /* Products */,
+				2C8FE6CBF6FB5556160B4870 /* Pods */,
+				721C0BB6238CFD630CA08A29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +127,56 @@
 		8B2AA4511D0CBF730011AA83 /* hackathon-mastercard-app */ = {
 			isa = PBXGroup;
 			children = (
+				8B93FA661D0D5DEC008BB3FA /* MontSerrat */,
+				8B0F16571D0D1925006F998E /* Simplify.bundle */,
+				8B0F16581D0D1925006F998E /* Simplify.framework */,
+				8B2AA4641D0CBF7A0011AA83 /* Bluetooth */,
 				8B2AA4521D0CBF730011AA83 /* AppDelegate.swift */,
+				8B0F165B1D0D46F0006F998E /* initialViewController.swift */,
+				8B93FA4F1D0D4C8A008BB3FA /* CustomPageViewController.swift */,
+				8B2AA4711D0CE3670011AA83 /* LoginViewController.swift */,
+				8B2AA4731D0CF0B40011AA83 /* ProfileViewController.swift */,
 				8B2AA4541D0CBF730011AA83 /* ViewController.swift */,
+				8B2AA46F1D0CCAC40011AA83 /* PaymentViewController.swift */,
+				8B2AA4791D0D0A930011AA83 /* CreditCardViewController.swift */,
+				8B93FA671D0D6A7E008BB3FA /* MasterPassViewController.swift */,
 				8B2AA4561D0CBF730011AA83 /* Main.storyboard */,
 				8B2AA4591D0CBF730011AA83 /* Assets.xcassets */,
 				8B2AA45B1D0CBF730011AA83 /* LaunchScreen.storyboard */,
 				8B2AA45E1D0CBF730011AA83 /* Info.plist */,
 			);
 			path = "hackathon-mastercard-app";
+			sourceTree = "<group>";
+		};
+		8B2AA4641D0CBF7A0011AA83 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				8B2AA4661D0CBF9F0011AA83 /* Bluetooth.h */,
+				8B2AA4671D0CBF9F0011AA83 /* Bluetooth.m */,
+				8B2AA4691D0CBFE60011AA83 /* IOTArduino.h */,
+				8B2AA46A1D0CBFE60011AA83 /* IOTArduino.m */,
+				8B2AA46B1D0CBFE60011AA83 /* SerialGATT.h */,
+				8B2AA46C1D0CBFE60011AA83 /* SerialGATT.m */,
+				8B2AA4651D0CBF9F0011AA83 /* hackathon-mastercard-app-Bridging-Header.h */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+		8B93FA661D0D5DEC008BB3FA /* MontSerrat */ = {
+			isa = PBXGroup;
+			children = (
+				8B93FA511D0D5DD5008BB3FA /* Montserrat-Black.otf */,
+				8B93FA521D0D5DD5008BB3FA /* Montserrat-Black.ttf */,
+				8B93FA531D0D5DD5008BB3FA /* Montserrat-Bold.otf */,
+				8B93FA541D0D5DD5008BB3FA /* Montserrat-Bold.ttf */,
+				8B93FA551D0D5DD5008BB3FA /* Montserrat-Hairline.otf */,
+				8B93FA561D0D5DD5008BB3FA /* Montserrat-Light.otf */,
+				8B93FA571D0D5DD5008BB3FA /* Montserrat-Light.ttf */,
+				8B93FA581D0D5DD5008BB3FA /* Montserrat-Regular.otf */,
+				8B93FA591D0D5DD5008BB3FA /* Montserrat-Regular.ttf */,
+				8B93FA5A1D0D5DD5008BB3FA /* Montserrat-Thin.ttf */,
+			);
+			name = MontSerrat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B2AA4611D0CBF730011AA83 /* Build configuration list for PBXNativeTarget "hackathon-mastercard-app" */;
 			buildPhases = (
+				28AC450077E75B725E12D7E1 /* [CP] Check Pods Manifest.lock */,
 				8B2AA44B1D0CBF730011AA83 /* Sources */,
 				8B2AA44C1D0CBF730011AA83 /* Frameworks */,
 				8B2AA44D1D0CBF730011AA83 /* Resources */,
+				EA2A40107A30636AC59BB8DD /* [CP] Embed Pods Frameworks */,
+				A67C31CB843700020D315AFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +240,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0F16591D0D1925006F998E /* Simplify.bundle in Resources */,
+				8B93FA5B1D0D5DD5008BB3FA /* Montserrat-Black.otf in Resources */,
+				8B93FA5D1D0D5DD5008BB3FA /* Montserrat-Bold.otf in Resources */,
 				8B2AA45D1D0CBF730011AA83 /* LaunchScreen.storyboard in Resources */,
+				8B93FA5E1D0D5DD5008BB3FA /* Montserrat-Bold.ttf in Resources */,
+				8B93FA601D0D5DD5008BB3FA /* Montserrat-Light.otf in Resources */,
+				8B93FA641D0D5DD5008BB3FA /* Montserrat-Thin.ttf in Resources */,
+				8B93FA631D0D5DD5008BB3FA /* Montserrat-Regular.ttf in Resources */,
+				8B93FA611D0D5DD5008BB3FA /* Montserrat-Light.ttf in Resources */,
 				8B2AA45A1D0CBF730011AA83 /* Assets.xcassets in Resources */,
+				8B93FA5F1D0D5DD5008BB3FA /* Montserrat-Hairline.otf in Resources */,
 				8B2AA4581D0CBF730011AA83 /* Main.storyboard in Resources */,
+				8B93FA5C1D0D5DD5008BB3FA /* Montserrat-Black.ttf in Resources */,
+				8B93FA621D0D5DD5008BB3FA /* Montserrat-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28AC450077E75B725E12D7E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A67C31CB843700020D315AFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackathon-mastercard-app/Pods-hackathon-mastercard-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA2A40107A30636AC59BB8DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackathon-mastercard-app/Pods-hackathon-mastercard-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B2AA44B1D0CBF730011AA83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2AA4721D0CE3670011AA83 /* LoginViewController.swift in Sources */,
 				8B2AA4551D0CBF730011AA83 /* ViewController.swift in Sources */,
+				8B2AA47A1D0D0A930011AA83 /* CreditCardViewController.swift in Sources */,
+				8B93FA501D0D4C8A008BB3FA /* CustomPageViewController.swift in Sources */,
+				8B2AA4701D0CCAC40011AA83 /* PaymentViewController.swift in Sources */,
+				8B2AA46D1D0CBFE60011AA83 /* IOTArduino.m in Sources */,
+				8B2AA4681D0CBF9F0011AA83 /* Bluetooth.m in Sources */,
+				8B93FA681D0D6A7E008BB3FA /* MasterPassViewController.swift in Sources */,
 				8B2AA4531D0CBF730011AA83 /* AppDelegate.swift in Sources */,
+				8B0F165C1D0D46F0006F998E /* initialViewController.swift in Sources */,
+				8B2AA4741D0CF0B40011AA83 /* ProfileViewController.swift in Sources */,
+				8B2AA46E1D0CBFE60011AA83 /* SerialGATT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +436,66 @@
 		};
 		8B2AA4621D0CBF730011AA83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2039FD0F6E7E340724CED86A /* Pods-hackathon-mastercard-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hackathon-mastercard-app",
+				);
 				INFOPLIST_FILE = "hackathon-mastercard-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.hackathon-mastercard-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hackathon-mastercard-app/hackathon-mastercard-app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8B2AA4631D0CBF730011AA83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB20602CF76B3E7CCFA43978 /* Pods-hackathon-mastercard-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hackathon-mastercard-app",
+				);
 				INFOPLIST_FILE = "hackathon-mastercard-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ezefranca.hackathon-mastercard-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hackathon-mastercard-app/hackathon-mastercard-app-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +518,7 @@
 				8B2AA4631D0CBF730011AA83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
